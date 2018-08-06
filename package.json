@@ -1,0 +1,19 @@
+{
+  "name": "coding-exercises",
+  "version": "1.0.0",
+  "description": "Simple TypeScript project for testing, katas, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.1.0",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  }
+}
